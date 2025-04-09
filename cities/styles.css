@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+    direction: rtl;
+}
+
+.header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-family: 'Amiri', serif;
+}
+
+.content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 1000px;
+    margin: auto;
+}
+
+.city-image {
+    width: 60%;
+    /* max-width: 600px; */
+    height: auto;
+    border-radius: 10px;
+    /* margin: 20px auto; */
+    /* float: left; */
+    margin-right: 20%;
+}
+
+.section-title {
+    color: #2c3e50;
+    border-bottom: 3px solid #e67e22;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+.historical-info {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-right: 5px solid #e67e22;
+    margin: 20px 0;
+}
+
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-link:hover {
+    color: #e67e22;
+}
