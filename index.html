@@ -17,6 +17,9 @@
             line-height: 1.8;
             color: #2c3e50;
         }
+        p,a{
+            font-size: large;
+        }
 
         .header {
             background: linear-gradient(135deg, #2c3e50, #3498db);
@@ -27,7 +30,7 @@
         }
 
         .container {
-            max-width: 1200px;
+            max-width: 70%;
             margin: 2rem auto;
             padding: 0 20px;
         }
@@ -41,10 +44,14 @@
         }
 
         #syria-map {
-            width: 100%;
+            /* width: 100%;
             height: auto;
             border: 2px solid #3498db;
-            border-radius: 10px;
+            border-radius: 10px; */
+            zoom: 90%;
+
+            display: flex;
+            justify-content: center;
         }
 
         .description {
@@ -85,7 +92,7 @@
         }
 
         .city-list {
-            columns: 6;
+            columns: 7;
             list-style: none;
             padding: 1rem;
             background: #f8f9fa;
@@ -131,7 +138,7 @@
         </div>
 
         <div class="map-container">
-            <img src="syria_map.png" usemap="#image-map" alt="الخريطة السورية" id="syria-map" >
+            <div id="syria-map"><img src="syria_map.png" usemap="#image-map" alt="الخريطة السورية"  ></div>
 
             <map name="image-map">
                 <area target="_blank" alt="Aleppo" title="Aleppo" href="./cities/aleppo.html"
